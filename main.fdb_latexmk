@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1752510685.5096 "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" "main.pdf" "main" 1752510686.76719 0
+["pdflatex"] 1752517499.06513 "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" "main.pdf" "main" 1752517500.42787 0
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1752502100 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk" 1752060787 12124 b5266333a997ef9c82167d72551a62cb ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx0800.pk" 1752060793 18468 8393368e14f8eed719d95fdb5cbf0a89 ""
@@ -110,10 +110,10 @@
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/jknappen/ursfs.fd" 930764886 548 cc4e3557704bfed27c7002773fad6c90 ""
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1751005717 30351 a2b09edc6c93a742566b222c33d0278e ""
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1749468414 7532 26d26e9d8f2ca784270d5da8ec7d102b ""
-  "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" 1752510684 26783 89f722ae2522902224df5ab00c007d58 ""
+  "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" 1752517497 26613 0853b882002edf84f62cdf02aba0af57 ""
   "dan2e.sty" 1674159939 33604 1cc986cb32c5c4a9d02ceac326c7260f ""
-  "main.aux" 1752510686 210 f22fcf858233da9c8660d77e0bd8840d "pdflatex"
-  "main.tex" 1752510684 26783 89f722ae2522902224df5ab00c007d58 ""
+  "main.aux" 1752517500 210 f22fcf858233da9c8660d77e0bd8840d "pdflatex"
+  "main.tex" 1752517497 26613 0853b882002edf84f62cdf02aba0af57 ""
   (generated)
   "main.aux"
   "main.log"
