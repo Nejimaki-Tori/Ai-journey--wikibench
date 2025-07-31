@@ -297,6 +297,26 @@ F_{\mathrm{BERT}} &= \frac{2\,P_{\mathrm{BERT}}\,R_{\mathrm{BERT}}}{P_{\mathrm{B
 \(R_{\mathrm{BERT}}\) отражает полноту (recall), \(P_{\mathrm{BERT}}\) — точность (precision), а \(F_{\mathrm{BERT}}\) их гармоническое среднее.  
 Значения метрики также лежат в диапазоне \([0,1]\), где 1 соответствует полному семантическому совпадению.
 \section*{Описание результатов эксперимента}
+
+
+\begin{table}[ht]
+\centering
+\caption{Результаты по метрикам nDCG, R-Precision для разных моделей}
+\begin{tabular}{l|c|c}
+\hline
+\textbf{Model} & \textbf{nDCG} & \textbf{R‑Pr} \\
+\hline
+DeepSeek V3 & 95.42 & 83.86 \\
+Qwen3-235B-A22B & 94.49 & 82.42 \\
+RuadaptQwen3-32B-Instruct-v2 & 95.25 & 81.81 \\
+tpro & 95.42 & 83.53 \\
+yagpt5lite & 90.35 & 77.66 \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
 \section*{Заключение}
 
 
