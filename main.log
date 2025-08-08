@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  5 AUG 2025 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  6 AUG 2025 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,16 +373,31 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count299
 \@lastruleclass=\count300
 \@thisrulewidth=\dimen171
+) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box55
+\extrarowheight=\dimen173
+\NC@list=\toks30
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box56
+)
+\rotheadsize=\dimen174
+\c@nlinenum=\count301
+\TeXr@lab=\toks31
 ) (dan2e.sty (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks30
-\verbatim@line=\toks31
+\every@verbatim=\toks32
+\verbatim@line=\toks33
 \verbatim@in@stream=\read3
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks32
+\KV@toks@=\toks34
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
@@ -394,8 +409,8 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen172
-\Gin@req@width=\dimen173
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -409,121 +424,111 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count301
-\Gm@cntv=\count302
-\c@Gm@tempcnt=\count303
-\Gm@bindingoffset=\dimen174
-\Gm@wd@mp=\dimen175
-\Gm@odd@mp=\dimen176
-\Gm@even@mp=\dimen177
-\Gm@layoutwidth=\dimen178
-\Gm@layoutheight=\dimen179
-\Gm@layouthoffset=\dimen180
-\Gm@layoutvoffset=\dimen181
-\Gm@dimlist=\toks33
+\Gm@cnth=\count302
+\Gm@cntv=\count303
+\c@Gm@tempcnt=\count304
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks35
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-\@doi@toks=\toks34
-\short@jour@toks=\toks35
-\Journal@toks=\toks36
-\hyper@title@toks=\toks37
-\R@AuI@F=\toks38
-\R@AuF@I=\toks39
-\E@AuI@F=\toks40
-\R@title@=\toks41
-\E@title@=\toks42
-\authorbox@=\box55
-\R@SZ@tokl=\toks43
-\R@SZ@tok=\toks44
-\R@SZ@tokr=\toks45
-\DatePostupilo@=\toks46
-\DateDorabotka@=\toks47
-\DatePrinyato@=\toks48
-\titlebox@=\box56
-\@alt@abstract@box=\box57
-\@alt@keywords@box=\box58
-\datebox@=\box59
-\addressemailbox@=\box60
-\refname@box=\box61
-\aaabox=\box62
-\Addresssep=\dimen182
+\@doi@toks=\toks36
+\short@jour@toks=\toks37
+\Journal@toks=\toks38
+\hyper@title@toks=\toks39
+\R@AuI@F=\toks40
+\R@AuF@I=\toks41
+\E@AuI@F=\toks42
+\R@title@=\toks43
+\E@title@=\toks44
+\authorbox@=\box57
+\R@SZ@tokl=\toks45
+\R@SZ@tok=\toks46
+\R@SZ@tokr=\toks47
+\DatePostupilo@=\toks48
+\DateDorabotka@=\toks49
+\DatePrinyato@=\toks50
+\titlebox@=\box58
+\@alt@abstract@box=\box59
+\@alt@keywords@box=\box60
+\datebox@=\box61
+\addressemailbox@=\box62
+\refname@box=\box63
+\aaabox=\box64
+\Addresssep=\dimen185
 \Address@insert=\insert252
-\c@Address=\count304
-\c@altAddress=\count305
-\@@alt@@address@toks=\toks49
-\@@alt@@all@@address@toks=\toks50
-\temp@@alt@@address@toks=\toks51
-\@thealtAddrmarktoks=\toks52
-\@temp@thealtAddrmarktoks=\toks53
-\temptoks=\toks54
-\Emailsep=\dimen183
+\c@Address=\count305
+\c@altAddress=\count306
+\@@alt@@address@toks=\toks51
+\@@alt@@all@@address@toks=\toks52
+\temp@@alt@@address@toks=\toks53
+\@thealtAddrmarktoks=\toks54
+\@temp@thealtAddrmarktoks=\toks55
+\temptoks=\toks56
+\Emailsep=\dimen186
 \Email@insert=\insert251
-\c@Email=\count306
-\@caption@box=\box63
-\my@@@hsize=\dimen184
-\c@chapter=\count307
-\c@aux@counter=\count308
-\@chapter@box@=\box64
-\@section@box@=\box65
+\c@Email=\count307
+\@caption@box=\box65
+\my@@@hsize=\dimen187
+\c@chapter=\count308
+\c@aux@counter=\count309
+\@chapter@box@=\box66
+\@section@box@=\box67
 LaTeX Encoding Info:    Redeclaring text command \textcopyright (encoding ?) on input line 1063.
-\kern@dimen=\dimen185
+\kern@dimen=\dimen188
 \kern@muskip=\muskip18
-\pmbraise@=\dimen186
-\Length=\count309
+\pmbraise@=\dimen189
+\Length=\count310
 )
-\c@defi=\count310
-\c@remark=\count311
-\c@theorem=\count312
-\c@OldTheorem=\count313
-\c@Theorem=\count314
+\c@defi=\count311
+\c@remark=\count312
+\c@theorem=\count313
+\c@OldTheorem=\count314
+\c@Theorem=\count315
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
+\l__color_backend_stack_int=\count316
 ) (main.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
 (babel)             Reported on input line 13.
-
-
-LaTeX Warning: Label `resar' multiply defined.
-
-
-LaTeX Warning: Label `storm' multiply defined.
-
-
-LaTeX Warning: Label `deepr' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Info: Redefining \th on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \th on input line 33.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
-\scratchdimen=\dimen187
-\scratchbox=\box66
-\nofMPsegments=\count317
-\nofMParguments=\count318
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count319
-\MPscratchDim=\dimen188
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
-\everyMPtoPDFconversion=\toks56
+\scratchcounter=\count317
+\scratchdimen=\dimen190
+\scratchbox=\box68
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen191
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks58
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -563,15 +568,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 44.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 45.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
@@ -579,24 +584,24 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 [1
 
 {C:/Users/dagri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 127.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 128.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 <figures/Source_extract.png, id=21, 1119.43219pt x 678.28406pt>
 File: figures/Source_extract.png Graphic file (type png)
 <use figures/Source_extract.png>
-Package pdftex.def Info: figures/Source_extract.png  used on input line 138.
+Package pdftex.def Info: figures/Source_extract.png  used on input line 139.
 (pdftex.def)             Requested size: 281.68513pt x 170.67801pt.
 <figures/article_entities.png, id=23, 510.489pt x 290.394pt>
 File: figures/article_entities.png Graphic file (type png)
 <use figures/article_entities.png>
-Package pdftex.def Info: figures/article_entities.png  used on input line 145.
+Package pdftex.def Info: figures/article_entities.png  used on input line 146.
 (pdftex.def)             Requested size: 281.68513pt x 160.24005pt.
 
 
 Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 158.
+(babel)             Reported on input line 159.
 [2 <./figures/Source_extract.png>]
 Underfull \vbox (badness 2189) has occurred while \output is active []
 
@@ -605,6 +610,11 @@ Underfull \vbox (badness 2189) has occurred while \output is active []
 [3 <./figures/article_entities.png>]
 
 [4]
+Overfull \hbox (1.725pt too wide) in paragraph at lines 249--265
+ [][] 
+ []
+
+
 
 [5]
 
@@ -612,28 +622,26 @@ Underfull \vbox (badness 2189) has occurred while \output is active []
 
 [7]
 
-[8] (main.aux)
+[8]
+
+[9] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 5882 strings out of 468148
- 91913 string characters out of 5431061
- 506374 words of memory out of 5000000
- 34377 multiletter control sequences out of 15000+600000
- 650482 words of font info for 93 fonts, out of 8000000 for 9000
+ 6117 strings out of 468148
+ 94895 string characters out of 5431061
+ 512659 words of memory out of 5000000
+ 34607 multiletter control sequences out of 15000+600000
+ 649608 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,79p,732b,309s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasl0800.pk><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (8 pages, 1232004 bytes).
+ 72i,17n,79p,732b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasl0800.pk><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (9 pages, 1220772 bytes).
 PDF statistics:
- 868 PDF objects out of 1000 (max. 8388607)
+ 834 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
