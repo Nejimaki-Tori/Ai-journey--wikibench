@@ -58,6 +58,12 @@ INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.s
 INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
 INPUT .\dan2e.sty
 INPUT dan2e.sty
 INPUT C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
@@ -188,6 +194,8 @@ INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0600.tfm
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0500.tfm
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labi1000.tfm
+INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati1000.tfm
+INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\latt0900.tfm
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1200.tfm
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1200.tfm
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati0800.tfm
@@ -196,6 +204,10 @@ INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati0
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati0800.pk
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
+INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0900.pk
+INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt0900.pk
+INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1000.pk
+INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1000.pk
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labi1000.pk
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labi1000.pk
 INPUT C:\Users\dagri\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
