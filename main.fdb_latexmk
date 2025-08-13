@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1754925185.85701 "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" "main.pdf" "main" 1754925187.87081 0
-  "C:/Users/dagri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754654899 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1755086446.02213 "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" "main.pdf" "main" 1755086448.03784 0
+  "C:/Users/dagri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755077920 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk" 1752060787 12124 b5266333a997ef9c82167d72551a62cb ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labi1000.pk" 1752585540 34112 f98ed3ba6f7c03dc45c2c93178a845c2 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx0800.pk" 1752060793 18468 8393368e14f8eed719d95fdb5cbf0a89 ""
@@ -17,7 +17,6 @@
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/lasl0800.pk" 1752060794 22456 74c5c3cb9892110a44006bd1a2cc2ec0 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/lati0800.pk" 1752060773 24820 6bd8e6db548aa7d9cf2515d35df7ec5a ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/lati0900.pk" 1752060783 28684 af43d0b821a3cca7bcc7e18eb25645c9 ""
-  "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/lati1000.pk" 1752060778 31788 2e97e52ddce4ae4d0d49b70b16d2b91d ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt0900.pk" 1752682519 16552 230dd7a6e6049028567e6703db218027 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1000.pk" 1752498760 18748 b521fad48a37d49b442df64fb682a97b ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/labi1000.tfm" 1752585539 3596 2ca4e809f721bd2749b4d599c6e51cbe ""
@@ -38,7 +37,6 @@
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/lasl0800.tfm" 1752060754 3472 492f061750eeedf13ac032bbf9314993 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/lati0800.tfm" 1752060772 3528 34d5b03fb0a23b3c8d81225e326c0140 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/lati0900.tfm" 1752060751 3528 9a6e36225f5d1c1540f120e54b292925 ""
-  "C:/Users/dagri/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/lati1000.tfm" 1752060766 3528 defd551e32c4af414f9b54b8101bfa9b ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/latt0900.tfm" 1752682518 1272 e497c921cae2e97681be4c17c26e4845 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/latt1000.tfm" 1752498758 1272 55f67101730a20777decd892fb4b4e3e ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1752060749 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -126,12 +124,12 @@
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1749468414 15698 f5f20b24886bb50156054c53e19b13fd ""
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1749468414 7532 26d26e9d8f2ca784270d5da8ec7d102b ""
-  "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" 1754925185 67426 b456953be445b1c5eef3e18b1c97bd4a ""
+  "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" 1755086445 63980 dc2056551a599b456e4c39e24d4d0c31 ""
   "dan2e.sty" 1674159939 33604 1cc986cb32c5c4a9d02ceac326c7260f ""
   "figures/Source_extract.png" 1752752555 435998 393f6a0f8ec196bb9789c234f2f934cb ""
   "figures/article_entities.png" 1753969401 512282 d4a2f9728089e2629933851e33c71e7f ""
-  "main.aux" 1754925187 3894 405b4826f1fb47e59cfa957b4c9d09de "pdflatex"
-  "main.tex" 1754925185 67426 b456953be445b1c5eef3e18b1c97bd4a ""
+  "main.aux" 1755086447 3586 5e223f7067eca4bd3d89a9e561c48fbe "pdflatex"
+  "main.tex" 1755086445 63980 dc2056551a599b456e4c39e24d4d0c31 ""
   (generated)
   "main.aux"
   "main.log"
