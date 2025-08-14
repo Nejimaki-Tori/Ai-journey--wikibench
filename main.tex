@@ -157,14 +157,14 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 
 \begin{figure}[ht!]
   \centering
-  \includegraphics[width=0.6\textwidth]{figures/Source_extract.png}%
+  \includegraphics[width=0.8\textwidth]{figures/Source_extract.png}
   \caption{Извлечение источников}
   \label{fig:source}
 \end{figure}
 
 \begin{figure}[ht!]
   \centering
-  \includegraphics[width=0.6\textwidth]{figures/article_entities.png}%
+  \includegraphics[width=0.8\textwidth]{figures/article_entities.png}
   \caption{Основные сущности статьи}
   \label{fig:article}
 \end{figure}
@@ -180,6 +180,7 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 Рисунок \ref{fig:article} иллюстрирует схематичное разбиение статьи\footnote{https://ru.ruwiki.ru/wiki/Python} на ключевые сущности, используемые в дальнейшей обработке.
 На этапе обработки данных выполняется фильтрация текста для обеспечения его корректной интерпретации моделью. 
 Каждая сноска, обозначенная цифрами в квадратных скобках (например, [1], [2]), сопоставляется с конкретной ссылкой, соответствующей одному из доступных источников. 
+
 То есть задано отображение по формуле \eqref{func}:
 \begin{equation}\label{func}
   F_b: S_b \to H_b \times A_b
@@ -249,29 +250,14 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
     Таким образом LLM полностью отвечает за качество выдачи и самостоятельно решает, какой поисковый запрос лучше сформулировать для BM25.
 
 \end{enumerate}
-Так получается описание, с упомянутыми основными заголовками или основанные только на названии статьи, как показано в таблице \ref{tab:c++} (только на русском языке).
+Так получается описание, с упомянутыми основными заголовками или основанные только на названии статьи, как показано в примере \ref{fig:c++} (только на русском языке).
 
-\begin{table}[ht!]
-\centering
-\begin{tabular}{|p{0.15\linewidth}|p{0.75\linewidth}|}
-\hline
-\makecell{\textbf{Вариант} \\ \textbf{запроса}} & \makecell{\textbf{Текст}} \\ \hline
-
-\textbf{Генерация по заголовкам} & Статья "C++" представляет собой обзор языка программирования C++, его истории, структуры и особенностей. 
-В ней рассматриваются основные аспекты языка, включая его стандартную библиотеку, отличия от языка C и дальнейшее развитие. 
-Кроме того, статья содержит примеры программ на C++, сравнение с альтернативными языками программирования, а также критический анализ и обсуждение влияния C++ на развитие программирования и существующие альтернативы. 
-Статья предназначена для читателей, интересующихся языком C++ и его ролью в современном программировании. \\ \hline
-
-\textbf{Генерация по названию}   & Статья "C++" может быть посвящена языку программирования C++, являющимся одним из наиболее популярных и широко используемых языков программирования в мире.
-В статье могут быть рассмотрены основы языка, его история, синтаксис и особенности, а также его применение в различных областях, таких как разработка операционных систем, игр и веб-приложений. 
-Кроме того, статья может содержать информацию о стандартах и библиотеках C++, а также о его сравнении с другими языками программирования. 
-Статья может быть полезна как для начинающих программистов, так и для опытных специалистов, которые хотят углубить свои знания о языке C++.
-Статья также может включать примеры кода и практические советы по использованию C++ в реальных проектах.  \\ \hline
-
-\end{tabular}
-\caption{Сравнение описаний статьи «C++» в двух вариантах}
-\label{tab:c++}
-\end{table}
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/two_queries.png}
+  \caption{Сравнение описаний статьи «C++» в двух вариантах}
+  \label{fig:c++}
+\end{figure}
 
 На основе полученного запроса посредством BM25 отбираются наиболее релевантные сниппеты: набор кандидатов-документов. Отобранные документы последовательно передаются большой языковой модели, которая должна определить каждый сниппет как релевантный (ответ «да») или нерелевантный (ответ «нет»). 
 Для получения численных оценок сравниваются названия статей, к которым относятся документы из выдачи и название статьи, для которой происходит отбор текстов-источников. 
@@ -476,7 +462,7 @@ yagpt5lite                     & 86.59 & 57.98 & 90.27 & 77.65 \\
 Стоит отметить, что в данной конфигурации модели тратят немного больше времени на отбор документов, так как к ранжированию еще добавляется генерация запроса на двух языках.
 
 Эксперимент показал, что самостоятельная генерация запроса BM25 не уступает по качеству ранжирования эталонному варианту, в котором запросы генерируются более <<сильной>> моделью и затем
-используются всеми оцениваемыми моделями. Предположительно, это связано с тем, что, как показано в таблице \ref{tab:c++}, запросы получаются похожими, потому что
+используются всеми оцениваемыми моделями. Предположительно, это связано с тем, что, как показано в примере \ref{fig:c++}, запросы получаются похожими, потому что
 LLM имеют представления о типовой структуре статьи Википедии из обучения и поэтому умеют связывать релевантные концепты в нужном формате.
 
 В целом, модели демонстрируют достаточно высокие значения метрик на данном этапе, что может быть обусловлено тем, что название статьи хорошо отражает её содержание. 
@@ -501,87 +487,34 @@ yagpt5lite                                & 59.72 & [58.82; 60.68] & \textbf{60.
 \end{tabular}
 \end{table}
 
-В таблице \ref{tab:headlines} приведено сравнение небольшого отрывка эталонного и сгенерированного планов.
+В таблице \ref{fig:outline} приведено сравнение небольшого отрывка эталонного и сгенерированного планов.
 Получившиеся результаты хорошо коррелировали со степенью сходства заголовков с эталонными, в то же время, общей проблемой всех моделей был слишком сильный уход в <<глубину>>. 
 В то время, как на <<Рувики>> заголовки редко были выше третьего уровня, модели часто создавали и четвертый, и пятый, подразумевая, что вся информация находится в одной большой секции, хотя
 она может несколько отличаться по смыслу и в оригинальном плане это были бы не связанные заголовки.
 
-\begin{table}[ht!]
-\centering
-\caption{Сравнение двух планов статей}
-\label{tab:headlines}
-\begin{multicols}{2}
-\section*{Сгенерированный}
-\small\setlength{\parskip}{2pt}\setlength{\parindent}{0pt}
-\texttt{\#} Введение в Python\\
-\texttt{\#\#} Обзор языка\\
-\texttt{\#\#\#} История и основные аспекты\\
-\texttt{\#\#\#\#} Ключевые особенности и реализации\\
-\texttt{\#} Основы языка Python\\
-\texttt{\#\#} Синтаксис и семантика\\
-\texttt{\#\#\#} Типы данных и структуры\\
-\texttt{\#\#\#\#} Числа, списки, словари \\ и объектно-ориентированное программирование\\
-\texttt{\#} Продвинутые темы Python\\
-\texttt{\#\#} Контроль потока и многопоточность\\
-\dots
-\columnbreak
-\section*{Эталонный}
-\small\setlength{\parskip}{2pt}\setlength{\parindent}{0pt}
-\texttt{\#} Python\\
-\texttt{\#\#} История\\
-\texttt{\#\#} Концепция и философия\\
-\texttt{\#\#} Портируемость\\
-\texttt{\#\#} Типы и структуры данных\\
-\texttt{\#\#} Синтаксис и семантика\\
-\texttt{\#\#\#} Система отступов\\
-\texttt{\#\#\#} Выражения\\
-\texttt{\#\#\#} Имена\\
-\texttt{\#\#\#} Строки документации\\
-\texttt{\#\#} Парадигмы программирования\\
-\dots
-\end{multicols}
-\end{table}
-
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/outline.png}
+  \caption{Сравнение двух планов статей}
+  \label{fig:outline}
+\end{figure}
 
 В таблице \ref{tab:secs} приведены результаты замеров качества генераций секций. Итоговые результаты оказались не сильно отличающимися, однако это обусловлено чувствительностью используемой метрики.
 В конечный расчет входили только те секции, для которых удалось сгенерировать текст. Например, не вошли секции, для которых алгоритмом не было отобрано ни одного релевантного сниппета. Лучшие результаты 
 продемонстрировала модель Qwen3-235B-A22B. Также, не смотря на свой небольшой размер (всего 8 млрд. параметров), модель yagpt5lite показала результаты на уровне остальных моделей, с гораздо большим числом параметров.
-Например, можно сравнить вводные секции статьи <<COVID19>>, сгенерированные моделями DeepSeek V3 и yagpt5lite соответственно. Тексты представлены в таблице \ref{tab:sec_cov}.
+Например, можно сравнить вводные секции статьи <<COVID19>>, сгенерированные моделями DeepSeek V3 и yagpt5lite соответственно. Тексты представлены в таблице \ref{fig:secs_com}.
 
-\begin{table}[ht!]
-\centering
-\begin{tabular}{|p{0.15\linewidth}|p{0.78\linewidth}|}
-\hline
-\makecell{\textbf{Модель}} & \makecell{\textbf{Текст}} \\ \hline
-
-\textbf{DeepSeek V3} & \textbf{COVID19 инфекционное заболевание}, \dots которое \textbf{привело к глобальной пандемии}, начавшейся в 2020 году. 
-Первоначально проявляясь респираторными симптомами, такими как кашель, лихорадка и одышка, болезнь может вызывать тяжёлые осложнения, включая поражение нервной, 
-сердечно-сосудистой и других систем из-за наличия рецептора ACE2 в различных тканях организма. 
-Вирус отличается высокой контагиозностью, предположительно имеет зоонозное происхождение и быстро распространился по всему миру. 
-Для контроля пандемии ВОЗ рекомендует вакцинацию, ношение масок, социальное дистанцирование и гигиену рук, 
-при этом эффективность вакцин против исходного штамма достигает 85\% и более. 
-Хотя у детей COVID-19 чаще протекает в лёгкой форме, возможны тяжёлые случаи, включая мультисистемный воспалительный синдром. 
-Глобальные усилия по вакцинации направлены на достижение коллективного иммунитета, однако сохраняются проблемы неравномерного доступа к вакцинам и их восприятия населением. \\ 
-\hline
-
-\textbf{yagpt5lite} & \textbf{COVID19 это пандемия}, вызванная новым коронавирусом SARSCoV2. 
-По состоянию на 14 января 2022 года ВОЗ подтвердила около \textbf{318 648 834} случаев COVID-19 во всём мире, включая \textbf{5 518 343} летальных исхода. 
-Первая вакцина от COVID19 была представлена в декабре 2020 года. 2 декабря 2020 года Великобритания стала первой страной, одобрившей вакцину PfizerBioNTech (BNT162), 
-которую ВОЗ одобрила для экстренного использования. SARSCoV2 считается более заразным, чем SARSCoV, и быстро распространился по всему миру после нескольких случаев заражения в Ухане, Китай. 
-Патогенез SARSCoV2 связан с воспалительными реакциями, которые негативно влияют на лёгкие и вызывают такие симптомы, как кашель, лихорадка, общее недомогание, одышка и дыхательная недостаточность. 
-Вирус может распространяться и на другие органы, вызывая неврологические, сердечно-сосудистые, кишечные и почечные нарушения.  \\ 
-\hline
-
-\end{tabular}
-\caption{Сравнение текстов двух секций}
-\label{tab:sec_cov}
-\end{table}
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/two_secs.png}
+  \caption{Сравнение текстов двух секций}
+  \label{fig:secs_com}
+\end{figure}
 
 Несмотря на отдельные смысловые неточности (например, утверждение «COVID-19 - это пандемия», тогда как в действительности речь идёт о заболевании), 
 модель yagpt5lite демонстрирует вполне достойный результат. Её текст уступает варианту от DeepSeek V3 в части полноты охвата темы и системности изложения, 
 но содержит больше числовых данных и конкретных фактов. При этом материал, сгенерированный DeepSeek V3, воспринимается как выдержка из энциклопедической статьи, 
 тогда как версия yagpt5lite ближе по стилю к техническому отчёту о заболевании.
-
 
 \begin{table}[ht!]
 \centering
@@ -601,6 +534,7 @@ yagpt5lite                   & 53.43 & 14.85 & 3.16\\
 \end{table}
 
 % ЗАКЛЮЧЕНИЕ --------
+\FloatBarrier
 \section*{Заключение}
 В заключение, в работе предложен и реализован бенчмарк WikiBench для оценки аналитических способностей больших языковых моделей при генерации научно-энциклопедических текстов на русском языке.
 В основу поставленной системы оценки лег трехэтапный процесс, состоящий из трех независимых систем, естественным образом возникающих при создании статей на определенную тему.
@@ -665,69 +599,6 @@ BUCKLEY C. Evaluating Evaluation Measure Stability //ACM SIGIR 2000 Proceedings.
 Lin C. Y. Rouge: A package for automatic evaluation of summaries //Text summarization branches out. – 2004. – С. 74-81.
 
 \bibitem{bleu}
-\textit{BLEU.}
-Papineni K. et al. BLEU: a Method for Automatic Evaluation of Machine Translation.
-
-\end{thebibliography}
-
-\renewcommand\refname{References}
-
-\begin{thebibliography}{99}
-
-\bibitem{rsglue_e}
-\textit{RussianSuperGlue.}
-Shavrina T. et al. RussianSuperGLUE: A Russian language understanding evaluation benchmark //EMNLP 2020-2020 Conference on Empirical Methods in Natural Language Processing, Proceedings of the Conference. – 2020. – С. 4717-4726.
-
-\bibitem{mera_e}
-\textit{Mera.}
-Fenogenova A. et al. MERA: A Comprehensive LLM Evaluation in Russian //Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). – 2024. – С. 9920-9948.
-
-\bibitem{libra_end}
-\textit{LIBRA.}
-Churin I. et al. Long Input Benchmark for Russian Analysis //CoRR. – 2024. Fenogenova 
-
-\bibitem{arena_e}
-\textit{Ru Arena General.}
-Li T. et al. From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline //CoRR. – 2024
-
-\bibitem{pp_e}
-\textit{Ping-Pong.}
-Gusev I. PingPong: A Benchmark for Role-Playing Language Models with User Emulation and Multi-Model Evaluation //arXiv e-prints. – 2024. – С. arXiv: 2409.06820
-
-\bibitem{resar_e}
-\textit{ResearchArena.}
-Kang H., Xiong C. ResearchArena: Benchmarking LLMs' Ability to Collect and Organize Information as Research Agents //arXiv e-prints. – 2024. – С. arXiv: 2406.10291.
-
-\bibitem{storm_e}
-\textit{Storm.}
-Shao Y. et al. Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models //NAACL-HLT. – 2024
-
-\bibitem{deepr_e}
-\textit{OpenAI.}
-Introducing deep research // OpenAI URL: https://openai.com/index/introducing-deep-research/ (дата обращения: 31.07.2025).
-
-\bibitem{rerank_e}
-\textit{Reranking.}
-Wang X. et al. Searching for Best Practices in Retrieval-Augmented Generation //CoRR. – 2024.
-
-\bibitem{ndcg_e}
-\textit{NDCG.}
-Zhang T. et al. BERTScore: Evaluating Text Generation with BERT //International Conference on Learning Representations.
-
-\bibitem{rprecision_e}
-\textit{RPrecion.}
-Järvelin K., Kekäläinen J. Cumulated gain-based evaluation of IR techniques //ACM Transactions on Information Systems (TOIS). – 2002. – Т. 20. – №. 4. – С. 422-446.
-
-\bibitem{bertscore_e}
-\textit{BERTScore.}
-Zhang T. et al. BERTScore: Evaluating Text Generation with BERT //International Conference on Learning Representations.
-
-
-\bibitem{rouge_e}
-\textit{ROUGE.}
-Lin C. Y. Rouge: A package for automatic evaluation of summaries //Text summarization branches out. – 2004. – С. 74-81.
-
-\bibitem{bleu_e}
 \textit{BLEU.}
 Papineni K. et al. BLEU: a Method for Automatic Evaluation of Machine Translation.
 
