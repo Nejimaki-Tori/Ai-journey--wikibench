@@ -47,11 +47,7 @@
 
 \markboth{Д.\,А.~Григорьев, Д.\,И.~Чернышев}{Оценка общих и специальных знаний в больших языковых моделях}
 
-\presentedby{Представлено кем-то}
-
-\dateA{16.08.2025}
-\dateB{20.08.2025}
-\dateC{31.08.2025}
+\presentedby{Представлено ...}
 
 \alttitle{Evaluating general and special knowledge in large language models for Russian language through replication of encyclopedia articles}
 
@@ -63,8 +59,6 @@
 
 \maketitle
 
-\doi{10.31857/S2686954322040117}
-
 \begin{abstract}
 В связи с растущим интересом к использованию больших языковых моделей (LLM) в качестве инструментов для генерации научных текстов, 
 оценка их способностей к созданию энциклопедического контента становится всё более актуальной.
@@ -74,7 +68,6 @@
 отбор релевантных источников, построение структуры статьи и генерации секций.
 Эксперименты с популярными открытыми моделями показали, что при общем умении собирать материал LLM допускают семантические ошибки в
 тексте и склонны формировать чрезмерно глубокие оглавления с уходом в детали.
-Результаты подтверждают необходимость специализированных инструментов для оценки аналитических навыков LLM в русскоязычной научной среде.
 \end{abstract}
 
 \begin{keywords}
@@ -90,7 +83,6 @@ built around three tasks:
 selection of relevant sources, article structuring, and section generation.
 Experiments with popular open-source models showed that, while generally capable of collecting material, LLMs tend to make semantic errors in the text
 and are prone to producing overly detailed tables of contents with excessive depth.
-The results confirm the need for specialized tools to assess the analytical skills of LLMs in the Russian-\allowbreak language scientific context.
 \end{altabstract}
 
 \begin{altkeywords}
@@ -531,6 +523,10 @@ yagpt5lite                                          & \uline{53.43} & \uline{14.
 По качество генерации секций по метрикам ROUGE-L и BLEU лидирует RuadaptQwen3-\allowbreak 32BInstruct-v2, что указывает на более согласованную с эталоном структуру текста.
 Работа показывает, что модели обладают значительным потенциалом, 
 но для их надежного применения в академическом контексте требуется дальнейшая проработка методов контроля за достоверностью и структурой создаваемого контента.
+
+\section*{Благодарности}
+Исследование выполнено за счет гранта Российского научного фонда №25-11-00191.
+Работа выполнялась с использованием суперкомпьютера «МГУ-270» МГУ имени М.В. Ломоносова.
 
 \begin{thebibliography}{99}
 

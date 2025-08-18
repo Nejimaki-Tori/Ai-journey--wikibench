@@ -1,10 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1755510720.11346 "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" "main.pdf" "main" 1755510723.02116 0
+["pdflatex"] 1755513062.41224 "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" "main.pdf" "main" 1755513065.31814 0
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755077920 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk" 1752060787 12124 b5266333a997ef9c82167d72551a62cb ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labi1000.pk" 1752585540 34112 f98ed3ba6f7c03dc45c2c93178a845c2 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx0800.pk" 1752060793 18468 8393368e14f8eed719d95fdb5cbf0a89 ""
-  "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx0900.pk" 1752060782 20732 58675fa473228e6d89d246bd0bf4d08f ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1752060786 23468 9a6d33daf6cf9b82f255fc5174d5f239 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1752060775 29472 9028d7a098ba1f0ba166b5b50c1ed729 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk" 1752060790 36852 d2eed8bb712ef69fe3218c7013da967f ""
@@ -124,15 +123,15 @@
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1749468414 7532 26d26e9d8f2ca784270d5da8ec7d102b ""
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
-  "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" 1755510719 57208 5c961755c1c39a9f8c2ce6e9824782ce ""
+  "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" 1755513058 57037 e5092a6a6ff8cfb4e680410bd5c1abd9 ""
   "dan2e.sty" 1674159939 33604 1cc986cb32c5c4a9d02ceac326c7260f ""
   "figures/Source_extract.png" 1752752555 435998 393f6a0f8ec196bb9789c234f2f934cb ""
   "figures/article_entities.png" 1753969401 512282 d4a2f9728089e2629933851e33c71e7f ""
   "figures/outline.png" 1755183157 248282 9c8411f9a7bd977609075e30658ce652 ""
   "figures/two_queries.png" 1755182925 364610 4572cdfdaa9ea766c03ec10ff650e0d5 ""
   "figures/two_secs.png" 1755183304 472669 819b1735f8d5b79b61c8eb154fd1ca5f ""
-  "main.aux" 1755510722 3667 5e337380a3f35c52b0228666deeeb787 "pdflatex"
-  "main.tex" 1755510719 57208 5c961755c1c39a9f8c2ce6e9824782ce ""
+  "main.aux" 1755513064 3668 4532c9d0b4fe5229f62f2537c86a355f "pdflatex"
+  "main.tex" 1755513058 57037 e5092a6a6ff8cfb4e680410bd5c1abd9 ""
   (generated)
   "main.aux"
   "main.log"
