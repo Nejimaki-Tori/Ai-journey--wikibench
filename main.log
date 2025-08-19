@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  18 AUG 2025 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  19 AUG 2025 04:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -672,28 +672,28 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 <figures/Source_extract.png, id=20, 1119.43219pt x 678.28406pt>
 File: figures/Source_extract.png Graphic file (type png)
 <use figures/Source_extract.png>
-Package pdftex.def Info: figures/Source_extract.png  used on input line 157.
-(pdftex.def)             Requested size: 375.57779pt x 227.5707pt.
+Package pdftex.def Info: figures/Source_extract.png  used on input line 155.
+(pdftex.def)             Requested size: 422.52054pt x 256.01186pt.
 <figures/article_entities.png, id=22, 510.489pt x 290.394pt>
 File: figures/article_entities.png Graphic file (type png)
 <use figures/article_entities.png>
-Package pdftex.def Info: figures/article_entities.png  used on input line 164.
-(pdftex.def)             Requested size: 375.57779pt x 213.65636pt.
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 170.
+Package pdftex.def Info: figures/article_entities.png  used on input line 162.
+(pdftex.def)             Requested size: 422.52054pt x 240.35786pt.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 168.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 
 Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 179.
+(babel)             Reported on input line 174.
 [2 <./figures/Source_extract.png>]
 
 [3 <./figures/article_entities.png>]
 <figures/two_queries.png, id=37, 1392.70313pt x 829.59938pt>
 File: figures/two_queries.png Graphic file (type png)
 <use figures/two_queries.png>
-Package pdftex.def Info: figures/two_queries.png  used on input line 243.
-(pdftex.def)             Requested size: 422.52054pt x 251.67929pt.
+Package pdftex.def Info: figures/two_queries.png  used on input line 240.
+(pdftex.def)             Requested size: 469.47046pt x 279.64226pt.
 
 
 [4 <./figures/two_queries.png>]
@@ -706,12 +706,12 @@ Package pdftex.def Info: figures/two_queries.png  used on input line 243.
 <figures/outline.png, id=54, 1635.10875pt x 593.21625pt>
 File: figures/outline.png Graphic file (type png)
 <use figures/outline.png>
-Package pdftex.def Info: figures/outline.png  used on input line 464.
-(pdftex.def)             Requested size: 422.52054pt x 153.28215pt.
+Package pdftex.def Info: figures/outline.png  used on input line 459.
+(pdftex.def)             Requested size: 469.47046pt x 170.31752pt.
 <figures/two_secs.png, id=55, 1298.60156pt x 952.30782pt>
 File: figures/two_secs.png Graphic file (type png)
 <use figures/two_secs.png>
-Package pdftex.def Info: figures/two_secs.png  used on input line 478.
+Package pdftex.def Info: figures/two_secs.png  used on input line 472.
 (pdftex.def)             Requested size: 422.52054pt x 309.84512pt.
 
 
@@ -728,15 +728,15 @@ L3 programming layer <2025-07-19>
 Here is how much of TeX's memory you used:
  6449 strings out of 468148
  100940 string characters out of 5431061
- 526058 words of memory out of 5000000
+ 527058 words of memory out of 5000000
  34924 multiletter control sequences out of 15000+600000
  649714 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,79p,527b,418s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,15n,79p,527b,418s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasl0800.pk><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (10 pages, 2120922 bytes).
+Output written on main.pdf (10 pages, 2122522 bytes).
 PDF statistics:
- 859 PDF objects out of 1000 (max. 8388607)
+ 864 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
