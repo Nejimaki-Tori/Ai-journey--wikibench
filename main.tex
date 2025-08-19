@@ -4,14 +4,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
 \usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{amsthm}
-\usepackage{mathrsfs}
 \usepackage{booktabs}
 \usepackage{makecell}
 \usepackage{multirow}
 \usepackage{multicol}
-\usepackage{placeins}
 \usepackage[normalem]{ulem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{xurl}  
@@ -27,9 +23,9 @@
 
 \begin{document}
 \raggedbottom
-\Volume{505}
+\Volume{...}
 \Year{2025}
-\Pages{46--49}
+\Pages{...}
 
 \udk{004.8}
 
@@ -68,7 +64,7 @@
 \end{abstract}
 
 \begin{keywords}
-бенчмарк, Википедия, Рувики, large language model
+бенчмарк, Википедия, Рувики, большие языковые модели
 \end{keywords}
 
 \begin{altabstract}
@@ -114,9 +110,9 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 В рамках исследования:
 \begin{enumerate}
 
-    \item Был собран размеченный набор данных на основе интернет-энциклопедии <<Рувики>>
+    \item Был собран размеченный набор данных на основе интернет-энциклопедии <<Рувики>>;
     
-    \item Был разработан открытый бенчмарк RuWikiBench, позволяющий измерять качество модели на задачах, требующих глубокого анализа текста.
+    \item Был разработан открытый бенчмарк RuWikiBench, позволяющий измерять качество модели на задачах, требующих глубокого анализа текста;
     
     \item Были протестированы способности лучших открытых больших языковых моделей порождать статьи типа Википедия.
 
@@ -137,10 +133,9 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 
 \begin{enumerate}
 
-    \item \textbf{Выбор статей}: вручную были отобраны статьи на разнообразные темы, 
-    содержащие достаточное количество ссылок на внешние источники.
+    \item \textbf{Выбор статей}: вручную были отобраны статьи на разнообразные темы, содержащие достаточное количество ссылок на внешние источники;
     
-    \item \textbf{Загрузка источников}: для каждой статьи были автоматически собраны доступные источники, на которые она ссылается. 
+    \item \textbf{Загрузка источников}: для каждой статьи были автоматически собраны доступные источники, на которые она ссылается;
     
     \item \parbox[t]{0.9\textwidth}{\textbf{Разбиение на сниппеты}: для воспроизведения реальных условий Retrieval Augmented Generation (RAG), все тексты были разбиты на небольшие фрагменты длиной $\approx 600$ слов.}
 
@@ -208,11 +203,11 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 Для объективной оценки способностей языковых моделей генерировать научно-энциклопедические тексты, необходимо воспроизвести реальный процесс подготовки энциклопедического контента:
 \begin{enumerate}
 
-    \item \textbf{Отбор релевантных источников}: модель получает заголовок статьи и набор текстовых фрагментов, среди которых необходимо идентифицировать и ранжировать по степени значимости материалы, соответствующие тематике. 
+    \item \textbf{Отбор релевантных источников}: модель получает заголовок статьи и набор текстовых фрагментов, среди которых необходимо идентифицировать и ранжировать по степени значимости материалы, соответствующие тематике; 
     
-    \item \textbf{Построение структуры статьи}: на основании темы и отобранных источников модель формирует план с выделением основных разделов в стиле Википедии.
+    \item \textbf{Построение структуры статьи}: на основании темы и отобранных источников модель формирует план с выделением основных разделов в стиле Википедии;
     
-    \item \textbf{Генерация секций}: материалы статьи распределяются по разделам, после чего для каждого раздела порождается обобщение его релевантных материалов
+    \item \textbf{Генерация секций}: материалы статьи распределяются по разделам, после чего для каждого раздела порождается обобщение его релевантных материалов.
 
 \end{enumerate}
 Каждый этап оценивается независимо от предыдущих, что позволяет количественно измерить качество выполнения конкретной подзадачи. 
@@ -240,7 +235,7 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 
 Отобранные по запросу BM25 документы последовательно передаются большой языковой модели, которая должна определить каждый сниппет как релевантный (ответ <<да>>) или нерелевантный (ответ <<нет>>). 
 Для получения численных оценок сравниваются названия статей, к которым относятся документы из выдачи и название статьи, для которой происходит отбор текстов-источников. 
-Берется логарифмическая вероятность токенов в ответе модели: если это был утвердительный ответ, то берется сама вероятность P(да), если отрицательный, то 1 – P(нет).
+Берется логарифмическая вероятность токенов в ответе модели: если это был утвердительный ответ, то берется сама вероятность $P(\text{да})$, если отрицательный, то $1 - P(\text{нет})$.
 Такой подход позволяет ранжировать выдачу документов по уверенности модели в релевантности: чем выше вероятность, тем выше степень уверенности модели в ответе, тем выше документ будет в выдаче.
 
 \subsection*{Построение структуры статьи.}
@@ -263,7 +258,7 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 чтобы избежать избыточных повторов при генерации (например, когда разные источники перефразируют одно и то же). 
 Для каждой такой смысловой группы строится иерархическое представление: 
 берутся первые \textbf{пять} текстов, по ним генерируется краткое описание, затем это описание дополняется на основе следующих пяти и так далее, пока не получено полное сжатое представление группы.
-Таким образом остается только некоторый набор кратких описаний – самая важная информация без лишних повторов.
+Таким образом остается только некоторый набор кратких описаний - самая важная информация без лишних повторов.
 После этого по полученным описаниям групп генерируется текст секции с использованием иерархического метода реферирования \cite{hier}.
 
 % ОПИСАНИЕ ПАРАМЕТРОВ ЭКСПЕРИМЕНТА --------
@@ -365,7 +360,6 @@ tpro \cite{tpro} и yagpt5lite \cite{yagpt}.
 В первом случае (таблица \ref{tab:query_ref}), когда для всех моделей использовался заранее сгенерированный поисковый запрос, 
 лучшие результаты показала модель DeepSeek V3, что свидетельствует о ее высокой способности отбирать релевантные документы.
 Во втором эксперименте (таблица \ref{tab:query_def}), где запрос формировался только на основе названия статьи, tpro показала лучшие результаты. 
-Стоит отметить, что в данной конфигурации модели тратят немного больше времени на отбор документов, так как к ранжированию еще добавляется генерация запроса на двух языках.
 Эксперимент показал, что самостоятельная генерация запроса BM25 не уступает по качеству ранжирования эталонному варианту, в котором запросы генерируются более <<сильной>> моделью и затем
 используются всеми оцениваемыми моделями. Предположительно, это связано с тем, что, как показано на рисунке \ref{fig:cxx}, запросы получаются похожими, потому что
 LLM имеют представления о типовой структуре статьи Википедии из обучения и поэтому умеют связывать релевантные концепты в нужном формате.
@@ -461,20 +455,6 @@ yagpt5lite                                          & 59.72 & 60.25 & \uline{60.
 большем совпадении формулировок с эталоном.
 Модель yagpt5lite показывает результаты выше среднего, особенно по BLEU, при существенно меньшем размере, тогда как tpro демонстрирует минимальные значения по всем метрикам.
 
-\begin{figure}[ht!]
-  \centering
-  \includegraphics[width=0.9\textwidth]{figures/two_secs.png}
-  \caption{Сравнение текстов двух секций}
-  \label{fig:secs_com}
-\end{figure}
-
-Для наглядного сравнения качества генерации секций можно рассмотреть вводные части статьи <<COVID19>>, 
-созданные моделями DeepSeek V3 и yagpt5lite соответственно, которые представлены на рисунке \ref{fig:secs_com}.
-Несмотря на отдельные смысловые неточности (например, утверждение <<COVID-19 - это пандемия>>, тогда как в действительности речь идет о заболевании), 
-модель yagpt5lite демонстрирует вполне достойный результат. Ее текст уступает варианту от DeepSeek V3 в части полноты охвата темы и системности изложения, 
-но содержит больше числовых данных и конкретных фактов. При этом материал, сгенерированный DeepSeek V3, воспринимается как выдержка из энциклопедической статьи, 
-тогда как версия yagpt5lite ближе по стилю к техническому отчету о заболевании.
-
 \begin{table}[ht!]
 \centering
 \caption{Результаты генерации секций}
@@ -495,8 +475,21 @@ yagpt5lite                                          & \uline{53.43} & \uline{14.
 \label{tab:secs}
 \end{table}
 
+Для наглядного сравнения качества генерации секций можно рассмотреть вводные части статьи <<COVID19>>, 
+созданные моделями DeepSeek V3 и yagpt5lite соответственно, которые представлены на рисунке \ref{fig:secs_com}.
+Несмотря на отдельные смысловые неточности (например, утверждение <<COVID-19 - это пандемия>>, тогда как в действительности речь идет о заболевании), 
+модель yagpt5lite демонстрирует вполне достойный результат. Ее текст уступает варианту от DeepSeek V3 в части полноты охвата темы и системности изложения, 
+но содержит больше числовых данных и конкретных фактов. При этом материал, сгенерированный DeepSeek V3, воспринимается как выдержка из энциклопедической статьи, 
+тогда как версия yagpt5lite ближе по стилю к техническому отчету о заболевании.
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/two_secs.png}
+  \caption{Сравнение текстов двух секций}
+  \label{fig:secs_com}
+\end{figure}
+
 % ЗАКЛЮЧЕНИЕ --------
-\FloatBarrier
 \section*{Заключение}
 В заключение, в работе предложен и реализован бенчмарк RuWikiBench для оценки аналитических способностей больших языковых моделей при генерации научно-энциклопедических текстов на русском языке.
 В основу поставленной системы оценки лег трехэтапный процесс, состоящий из трех независимых систем, естественным образом возникающих при создании статей на определенную тему.
@@ -511,7 +504,7 @@ yagpt5lite                                          & \uline{53.43} & \uline{14.
 но для их надежного применения требуется дальнейшая проработка методов анализа и структурирования обзорных материалов.
 
 \section*{Благодарности}
-Исследование выполнено за счет гранта Российского научного фонда № 25-11-00191,\url{https://rscf.ru/project/25-11-00191/}.
+Исследование выполнено за счет гранта Российского научного фонда № 25-11-00191, \url{https://rscf.ru/project/25-11-00191/}.
 
 Работа выполнялась с использованием суперкомпьютера <<МГУ-270>> МГУ имени М.В. Ломоносова.
 
@@ -519,27 +512,27 @@ yagpt5lite                                          & \uline{53.43} & \uline{14.
 
 \bibitem{rsglue}
 \textit{RussianSuperGlue.}
-Shavrina T. et al. RussianSuperGLUE: A Russian language understanding evaluation benchmark //EMNLP 2020-2020 Conference on Empirical Methods in Natural Language Processing, Proceedings of the Conference. – 2020. – С. 4717-4726.
+Shavrina T. et al. RussianSuperGLUE: A Russian language understanding evaluation benchmark //EMNLP 2020-2020 Conference on Empirical Methods in Natural Language Processing, Proceedings of the Conference. - 2020. - С. 4717-4726.
 
 \bibitem{mera}
 \textit{Mera.}
-Fenogenova A. et al. MERA: A Comprehensive LLM Evaluation in Russian //Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). – 2024. – С. 9920-9948.
+Fenogenova A. et al. MERA: A Comprehensive LLM Evaluation in Russian //Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). - 2024. - С. 9920-9948.
 
 \bibitem{libra}
 \textit{LIBRA.}
-Churin I. et al. Long Input Benchmark for Russian Analysis //CoRR. – 2024. Fenogenova 
+Churin I. et al. Long Input Benchmark for Russian Analysis //CoRR. - 2024. Fenogenova 
 
 \bibitem{arena}
 \textit{Ru Arena General.}
-Li T. et al. From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline //CoRR. – 2024
+Li T. et al. From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline //CoRR. - 2024
 
 \bibitem{pp}
 \textit{Ping-Pong.}
-Gusev I. PingPong: A Benchmark for Role-Playing Language Models with User Emulation and Multi-Model Evaluation //arXiv e-prints. – 2024. – С. arXiv: 2409.06820
+Gusev I. PingPong: A Benchmark for Role-Playing Language Models with User Emulation and Multi-Model Evaluation //arXiv e-prints. - 2024. - С. arXiv: 2409.06820
 
 \bibitem{resar}
 \textit{ResearchArena.}
-Kang H., Xiong C. ResearchArena: Benchmarking LLMs' Ability to Collect and Organize Information as Research Agents //arXiv e-prints. – 2024. – С. arXiv: 2406.10291.
+Kang H., Xiong C. ResearchArena: Benchmarking LLMs' Ability to Collect and Organize Information as Research Agents //arXiv e-prints. - 2024. - С. arXiv: 2406.10291.
 
 \bibitem{deepr}
 \textit{OpenAI.}
@@ -547,22 +540,22 @@ Introducing deep research // OpenAI URL: \url{https://openai.com/index/introduci
 
 \bibitem{storm}
 \textit{Storm.}
-Shao Y. et al. Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models //NAACL-HLT. – 2024
+Shao Y. et al. Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models //NAACL-HLT. - 2024
 
 \bibitem{rerank}
 \textit{Reranking.}
-Wang X. et al. Searching for Best Practices in Retrieval-Augmented Generation //CoRR. – 2024.
+Wang X. et al. Searching for Best Practices in Retrieval-Augmented Generation //CoRR. - 2024.
 
 \bibitem{hier} 
-Wu J. et al. Recursively Summarizing Books with Human Feedback //arXiv e-prints. – 2021. – С. arXiv: 2109.10862.
+Wu J. et al. Recursively Summarizing Books with Human Feedback //arXiv e-prints. - 2021. - С. arXiv: 2109.10862.
 
 \bibitem{ndcg}
 \textit{NDCG.}
-Järvelin K., Kekäläinen J. Cumulated gain-based evaluation of IR techniques //ACM Transactions on Information Systems (TOIS). – 2002. – Т. 20. – №. 4. – С. 422-446.
+Järvelin K., Kekäläinen J. Cumulated gain-based evaluation of IR techniques //ACM Transactions on Information Systems (TOIS). - 2002. - Т. 20. - №. 4. - С. 422-446.
 
 \bibitem{rprecision}
 \textit{RPrecion.}
-BUCKLEY C. Evaluating Evaluation Measure Stability //ACM SIGIR 2000 Proceedings. – 2000.
+BUCKLEY C. Evaluating Evaluation Measure Stability //ACM SIGIR 2000 Proceedings. - 2000.
 
 \bibitem{bertscore}
 \textit{BERTScore.}
@@ -570,7 +563,7 @@ Zhang T. et al. BERTScore: Evaluating Text Generation with BERT //International 
 
 \bibitem{rouge}
 \textit{ROUGE.}
-Lin C. Y. Rouge: A package for automatic evaluation of summaries //Text summarization branches out. – 2004. – С. 74-81.
+Lin C. Y. Rouge: A package for automatic evaluation of summaries //Text summarization branches out. - 2004. - С. 74-81.
 
 \bibitem{bleu}
 \textit{BLEU.}
@@ -578,15 +571,15 @@ Papineni K. et al. BLEU: a Method for Automatic Evaluation of Machine Translatio
 
 \bibitem{ruadapt}
 \textit{RuadaptQwen.}
-Tikhomirov M., Chernyshev D. Facilitating large language model russian adaptation with learned embedding propagation //Journal of Language and Education. – 2024. – Т. 10. – №. 4 (40). – С. 130-145.
+Tikhomirov M., Chernyshev D. Facilitating large language model russian adaptation with learned embedding propagation //Journal of Language and Education. - 2024. - Т. 10. - №. 4 (40). - С. 130-145.
 
 \bibitem{deepseek}
 \textit{DeepSeek V3.}
-Liu A. et al. DeepSeek-V3 Technical Report //CoRR. – 2024.
+Liu A. et al. DeepSeek-V3 Technical Report //CoRR. - 2024.
 
 \bibitem{qwen3}
 \textit{Qwen3-235B.}
-Yang A. et al. Qwen3 technical report //arXiv preprint arXiv:2505.09388. – 2025.
+Yang A. et al. Qwen3 technical report //arXiv preprint arXiv:2505.09388. - 2025.
 
 \bibitem{tpro}
 Т-Банк открыл доступ к собственной русскоязычной языковой модели в весовой категории 7-8 млрд параметров\\ Т-Банк URL: \url{https://www.tbank.ru/about/news/20072024-t-bank-opened-access-its-own-russian-language-language-model-weight-category-of-7-8-billion-parameters/} (дата обращения: 10.05.2025).

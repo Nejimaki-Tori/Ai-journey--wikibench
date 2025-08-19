@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  19 AUG 2025 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  19 AUG 2025 21:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -331,29 +331,6 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
-) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
-Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks24
-\thm@bodyfont=\toks25
-\thm@headfont=\toks26
-\thm@notefont=\toks27
-\thm@headpunct=\toks28
-\thm@preskip=\skip54
-\thm@postskip=\skip55
-\thm@headsep=\skip56
-\dth@everypar=\toks29
-) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.sty
-Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup6
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen159
@@ -380,19 +357,19 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen172
 \ar@mcellbox=\box55
 \extrarowheight=\dimen173
-\NC@list=\toks30
-\extratabsurround=\skip57
-\backup@length=\skip58
+\NC@list=\toks24
+\extratabsurround=\skip54
+\backup@length=\skip55
 \ar@cellbox=\box56
 )
 \rotheadsize=\dimen174
 \c@nlinenum=\count301
-\TeXr@lab=\toks31
+\TeXr@lab=\toks25
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip59
+\multirow@colwidth=\skip56
 \multirow@cntb=\count302
-\multirow@dima=\skip60
+\multirow@dima=\skip57
 \bigstrutjot=\dimen175
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
@@ -408,8 +385,8 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \page@free=\dimen178
 \premulticols=\dimen179
 \postmulticols=\dimen180
-\multicolsep=\skip61
-\multicolbaselineskip=\skip62
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
 \partial@page=\box58
 \last@line=\box59
 \mc@boxedresult=\box60
@@ -464,13 +441,11 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \colbreak@box=\box102
 \mc@col@check@num=\count312
 \g__mc_curr_col_int=\count313
-) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
-Package: placeins 2005/04/18  v 2.2
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box103
 \UL@hyphenbox=\box104
-\UL@skip=\skip63
-\UL@hook=\toks32
+\UL@skip=\skip60
+\UL@hook=\toks26
 \UL@height=\dimen185
 \UL@pe=\count314
 \UL@pixel=\dimen186
@@ -483,7 +458,7 @@ Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks33
+\KV@toks@=\toks27
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
@@ -580,13 +555,13 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip64
+\Hy@SectionHShift=\skip61
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (dan2e.sty (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks34
-\verbatim@line=\toks35
+\every@verbatim=\toks28
+\verbatim@line=\toks29
 \verbatim@in@stream=\read3
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
@@ -609,7 +584,18 @@ Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+ (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks35
+) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -683,28 +669,28 @@ Package babel Info: 'russian' activates 'russian' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Info: Redefining \th on input line 28.
-Package hyperref Info: Link coloring OFF on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Info: Redefining \th on input line 24.
+Package hyperref Info: Link coloring OFF on input line 24.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -761,47 +747,36 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
-(C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
- (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 40.
- (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
+
 
 [1
 
 {C:/Users/dagri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 125.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 121.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 <figures/Source_extract.png, id=45, 1119.43219pt x 678.28406pt>
 File: figures/Source_extract.png Graphic file (type png)
 <use figures/Source_extract.png>
-Package pdftex.def Info: figures/Source_extract.png  used on input line 151.
+Package pdftex.def Info: figures/Source_extract.png  used on input line 146.
 (pdftex.def)             Requested size: 422.52054pt x 256.01186pt.
 <figures/article_entities.png, id=47, 510.489pt x 290.394pt>
 File: figures/article_entities.png Graphic file (type png)
 <use figures/article_entities.png>
-Package pdftex.def Info: figures/article_entities.png  used on input line 158.
+Package pdftex.def Info: figures/article_entities.png  used on input line 153.
 (pdftex.def)             Requested size: 422.52054pt x 240.35786pt.
 
 
 Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 170.
+(babel)             Reported on input line 165.
 [2 <./figures/Source_extract.png>]
 
 [3 <./figures/article_entities.png>]
 <figures/two_queries.png, id=89, 1392.70313pt x 829.59938pt>
 File: figures/two_queries.png Graphic file (type png)
 <use figures/two_queries.png>
-Package pdftex.def Info: figures/two_queries.png  used on input line 236.
+Package pdftex.def Info: figures/two_queries.png  used on input line 231.
 (pdftex.def)             Requested size: 469.47046pt x 279.64226pt.
 
 
@@ -810,18 +785,17 @@ Package pdftex.def Info: figures/two_queries.png  used on input line 236.
 [5]
 
 [6]
-<figures/outline.png, id=168, 1635.10875pt x 593.21625pt>
-File: figures/outline.png Graphic file (type png)
-<use figures/outline.png>
-Package pdftex.def Info: figures/outline.png  used on input line 453.
-(pdftex.def)             Requested size: 469.47046pt x 170.31752pt.
-
 
 [7]
-<figures/two_secs.png, id=182, 1298.60156pt x 952.30782pt>
+<figures/outline.png, id=180, 1635.10875pt x 593.21625pt>
+File: figures/outline.png Graphic file (type png)
+<use figures/outline.png>
+Package pdftex.def Info: figures/outline.png  used on input line 447.
+(pdftex.def)             Requested size: 469.47046pt x 170.31752pt.
+<figures/two_secs.png, id=183, 1298.60156pt x 952.30782pt>
 File: figures/two_secs.png Graphic file (type png)
 <use figures/two_secs.png>
-Package pdftex.def Info: figures/two_secs.png  used on input line 466.
+Package pdftex.def Info: figures/two_secs.png  used on input line 487.
 (pdftex.def)             Requested size: 422.52054pt x 309.84512pt.
 
 
@@ -829,9 +803,7 @@ Package pdftex.def Info: figures/two_secs.png  used on input line 466.
 
 [9 <./figures/two_secs.png>]
 
-[10]
-
-[11] (main.aux)
+[10] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
@@ -840,17 +812,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 88730D34550AC6365D739D82A09B966E;183.
  ) 
 Here is how much of TeX's memory you used:
- 13776 strings out of 468148
- 212924 string characters out of 5431061
- 640150 words of memory out of 5000000
- 42081 multiletter control sequences out of 15000+600000
- 650334 words of font info for 95 fonts, out of 8000000 for 9000
+ 13174 strings out of 468148
+ 204933 string characters out of 5431061
+ 640282 words of memory out of 5000000
+ 41513 multiletter control sequences out of 15000+600000
+ 646865 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,600b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,79p,600b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labi1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc0900.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx0800.pk> <C:\Users\dagri\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasl0800.pk><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dagri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (11 pages, 2163923 bytes).
+Output written on main.pdf (10 pages, 2160759 bytes).
 PDF statistics:
- 1094 PDF objects out of 1200 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
+ 1082 PDF objects out of 1200 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
  34 words of extra memory for PDF output out of 10000 (max. 10000000)
 
