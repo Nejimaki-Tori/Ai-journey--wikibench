@@ -1,18 +1,16 @@
 \documentclass{article}
 
 \usepackage[T2A]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[russian]{babel}
+\usepackage[main=russian,english]{babel}
 \usepackage{amsmath}
 \usepackage{booktabs}
 \usepackage{makecell}
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage[normalem]{ulem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{xurl}  
-
 \usepackage{dan2e}
+\usepackage[hidelinks]{hyperref}
 
 % Эти четыре строчки, чтобы исправить проблему с компиляцией 
 % т.к. не определялся if@Russian, возможно из-за более новой версии babel
@@ -23,9 +21,9 @@
 
 \begin{document}
 \raggedbottom
-\Volume{...}
-\Year{2025}
-\Pages{...}
+\Volume{ }
+\Year{ }
+\Pages{ }
 
 \udk{004.8}
 
@@ -41,15 +39,19 @@
 
 \markboth{Д.\,А.~Григорьев, Д.\,И.~Чернышев}{RuWikiBench: оценка больших языковых моделей}
 
-\presentedby{Представлено ...}
+\presentedby{...}
+
+\dateA{ }
+\dateB{ }
+\dateC{ }
 
 \alttitle{RuWikiBench: Evaluating Large Language Models through replication of encyclopedia articles}
 
 \altauthor{D.\,A.~Grigoriev\Addressmark[a]\Emailmark[1], D.\,I.~Chernyshev\Addressmark[a]\Emailmark[2]}
 
-\altAddresstext[a]{Lomonosov Moscow State University, Moscow Center for Fundamental and Applied Mathematics, \\ Moscow, Russian Federation}
+\altAddresstext[a]{Lomonosov Moscow State University, Moscow Center for Fundamental and Applied Mathematics, Moscow, Russian Federation}
 
-\altpresentedby{Presented by ...}
+\altpresentedby{...}
 
 \maketitle
 
@@ -109,11 +111,11 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 В рамках исследования:
 \begin{enumerate}
 
-    \item Был собран размеченный набор данных на основе интернет-энциклопедии <<Рувики>>;
+    \item Собран размеченный набор данных на основе интернет-энциклопедии <<Рувики>>;
     
-    \item Был разработан открытый бенчмарк RuWikiBench, позволяющий измерять качество модели на задачах, требующих глубокого анализа текста;
+    \item Разработан открытый бенчмарк RuWikiBench, позволяющий измерять качество модели на задачах, требующих глубокого анализа текста;
     
-    \item Были протестированы способности лучших открытых больших языковых моделей порождать статьи в стиле Википедии.
+    \item Протестированы способности лучших открытых больших языковых моделей порождать статьи в стиле Википедии.
 
 \end{enumerate}
 
@@ -240,7 +242,7 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 \subsection*{Построение структуры статьи.}
 Сначала каждый текстовый фрагмент (сниппет) эталонного источника статьи преобразуется в векторное представление с использованием выбранной модели эмбеддингов. 
 Затем сниппеты разбиваются на кластеры - потенциальное содержание секций. 
-Чтобы гарантировать детерминированность, применяется алгоритм Kmeans с числом кластеров равным числу заголовков 2го уровня эталонного плана и инициализацией центроидов векторными представлениями этих заголовков. 
+Для детерминированности, применяется алгоритм KMeans с числом кластеров равным числу заголовков 2го уровня эталонного плана и инициализацией центроидов векторными представлениями этих заголовков. 
 
 Далее отбираются пять сниппетов, наиболее близких к центру кластера. Это делается с целью снизить влияние менее релевантных сниппетов на итоговый план. 
 Формирование мини-планов секций осуществляется с учетом двух ключевых параметров: 
@@ -255,8 +257,8 @@ Ping-Pong \cite{pp} оценивает диалоговые способност
 Все сниппеты снова переводятся в эмбеддинги и строится матрица попарных сходств как произведение \(Emb \times Emb^\top\).
 Элементы со значением сходства выше порога 0.8 (значение подобрано эмпирически) считаются близкими по смыслу и объединяются в группы, 
 чтобы избежать избыточных повторов при генерации (например, когда разные источники перефразируют одно и то же). 
-Для каждой такой смысловой группы строится иерархическое представление: 
-берутся первые \textbf{пять} текстов, по ним генерируется краткое описание, затем это описание дополняется на основе следующих пяти и так далее, пока не получено полное сжатое представление группы.
+Для каждой такой смысловой группы строится иерархическое представление: берутся первые пять текстов, по ним генерируется краткое описание, 
+затем это описание дополняется на основе следующих пяти и так далее, пока не получено полное сжатое представление группы.
 Таким образом остается только некоторый набор кратких описаний - самая важная информация без лишних повторов.
 После этого по полученным описаниям групп генерируется текст секции с использованием иерархического метода реферирования \cite{hier}.
 
@@ -519,7 +521,7 @@ Fenogenova A. et al. MERA: A Comprehensive LLM Evaluation in Russian //Proceedin
 
 \bibitem{libra}
 \textit{LIBRA.}
-Churin I. et al. Long Input Benchmark for Russian Analysis //CoRR. - 2024. Fenogenova 
+Churin I. et al. Long Input Benchmark for Russian Analysis //CoRR. – 2024.
 
 \bibitem{arena}
 \textit{Ru Arena General.}
@@ -527,7 +529,7 @@ Li T. et al. From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and B
 
 \bibitem{pp}
 \textit{Ping-Pong.}
-Gusev I. PingPong: A Benchmark for Role-Playing Language Models with User Emulation and Multi-Model Evaluation //arXiv e-prints. - 2024. - С. arXiv: 2409.06820
+Gusev I. PingPong: A Benchmark for Role-Playing Language Models with User Emulation and Multi-Model Evaluation.
 
 \bibitem{resar}
 \textit{ResearchArena.}
@@ -553,7 +555,7 @@ Wu J. et al. Recursively Summarizing Books with Human Feedback //arXiv e-prints.
 Järvelin K., Kekäläinen J. Cumulated gain-based evaluation of IR techniques //ACM Transactions on Information Systems (TOIS). - 2002. - Т. 20. - №. 4. - С. 422-446.
 
 \bibitem{rprecision}
-\textit{RPrecion.}
+\textit{R-Precision.}
 BUCKLEY C. Evaluating Evaluation Measure Stability //ACM SIGIR 2000 Proceedings. - 2000.
 
 \bibitem{bertscore}
@@ -581,10 +583,10 @@ Liu A. et al. DeepSeek-V3 Technical Report //CoRR. - 2024.
 Yang A. et al. Qwen3 technical report //arXiv preprint arXiv:2505.09388. - 2025.
 
 \bibitem{tpro}
-Т-Банк открыл доступ к собственной русскоязычной языковой модели в весовой категории 7-8 млрд параметров\\ Т-Банк URL: \url{https://www.tbank.ru/about/news/20072024-t-bank-opened-access-its-own-russian-language-language-model-weight-category-of-7-8-billion-parameters/} (дата обращения: 10.05.2025).
+Т-Банк открыл доступ к собственной русскоязычной языковой модели в весовой категории 7-8 млрд параметров // Т-Банк URL: \url{https://www.tbank.ru/about/news/20072024-t-bank-opened-access-its-own-russian-language-language-model-weight-category-of-7-8-billion-parameters/} (дата обращения: 10.05.2025).
 
 \bibitem{yagpt}
-YandexGPT 5 с режимом рассуждений // Яндекс URL: \url{https://ya.ru/ai/gpt?ysclid=mal9jrssc8906806775} (дата обращения: 30.07.2025).
+YandexGPT 5 с режимом рассуждений // Яндекс URL: \url{https://ya.ru/ai/gpt} (дата обращения: 30.07.2025).
 
 \end{thebibliography}
 
