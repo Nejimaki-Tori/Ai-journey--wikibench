@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  20 AUG 2025 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.29)  20 AUG 2025 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,7 +233,11 @@ File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 116.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+)) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2025/07/13 v25.11 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count283
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
@@ -289,7 +293,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2024/11/17 v2.01 AMS text
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks19
 \ex@=\dimen150
 )) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -327,21 +331,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip17
 \c@parentequation=\count292
 \dspbrk@lvl=\count293
-\tag@help=\toks18
+\tag@help=\toks20
 \row@=\count294
 \column@=\count295
 \maxfields@=\count296
-\andhelp@=\toks19
+\andhelp@=\toks21
 \eqnshift@=\dimen153
 \alignsep@=\dimen154
 \tagshift@=\dimen155
 \tagwidth@=\dimen156
 \totwidth@=\dimen157
 \lineht@=\dimen158
-\@envbody=\toks20
+\@envbody=\toks22
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
@@ -370,14 +374,14 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen172
 \ar@mcellbox=\box55
 \extrarowheight=\dimen173
-\NC@list=\toks22
+\NC@list=\toks24
 \extratabsurround=\skip54
 \backup@length=\skip55
 \ar@cellbox=\box56
 )
 \rotheadsize=\dimen174
 \c@nlinenum=\count301
-\TeXr@lab=\toks23
+\TeXr@lab=\toks25
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip56
@@ -458,7 +462,7 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \UL@box=\box103
 \UL@hyphenbox=\box104
 \UL@skip=\skip60
-\UL@hook=\toks24
+\UL@hook=\toks26
 \UL@height=\dimen185
 \UL@pe=\count314
 \UL@pixel=\dimen186
@@ -472,14 +476,14 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )) (dan2e.sty (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks25
-\verbatim@line=\toks26
+\every@verbatim=\toks27
+\verbatim@line=\toks28
 \verbatim@in@stream=\read3
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks27
+\KV@toks@=\toks29
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
@@ -501,15 +505,15 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks28
-\thm@bodyfont=\toks29
-\thm@headfont=\toks30
-\thm@notefont=\toks31
-\thm@headpunct=\toks32
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
 \thm@preskip=\skip61
 \thm@postskip=\skip62
 \thm@headsep=\skip63
-\dth@everypar=\toks33
+\dth@everypar=\toks35
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
@@ -528,24 +532,24 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutheight=\dimen195
 \Gm@layouthoffset=\dimen196
 \Gm@layoutvoffset=\dimen197
-\Gm@dimlist=\toks34
+\Gm@dimlist=\toks36
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-\@doi@toks=\toks35
-\short@jour@toks=\toks36
-\Journal@toks=\toks37
-\hyper@title@toks=\toks38
-\R@AuI@F=\toks39
-\R@AuF@I=\toks40
-\E@AuI@F=\toks41
-\R@title@=\toks42
-\E@title@=\toks43
+\@doi@toks=\toks37
+\short@jour@toks=\toks38
+\Journal@toks=\toks39
+\hyper@title@toks=\toks40
+\R@AuI@F=\toks41
+\R@AuF@I=\toks42
+\E@AuI@F=\toks43
+\R@title@=\toks44
+\E@title@=\toks45
 \authorbox@=\box106
-\R@SZ@tokl=\toks44
-\R@SZ@tok=\toks45
-\R@SZ@tokr=\toks46
-\DatePostupilo@=\toks47
-\DateDorabotka@=\toks48
-\DatePrinyato@=\toks49
+\R@SZ@tokl=\toks46
+\R@SZ@tok=\toks47
+\R@SZ@tokr=\toks48
+\DatePostupilo@=\toks49
+\DateDorabotka@=\toks50
+\DatePrinyato@=\toks51
 \titlebox@=\box107
 \@alt@abstract@box=\box108
 \@alt@keywords@box=\box109
@@ -557,12 +561,12 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Address@insert=\insert252
 \c@Address=\count318
 \c@altAddress=\count319
-\@@alt@@address@toks=\toks50
-\@@alt@@all@@address@toks=\toks51
-\temp@@alt@@address@toks=\toks52
-\@thealtAddrmarktoks=\toks53
-\@temp@thealtAddrmarktoks=\toks54
-\temptoks=\toks55
+\@@alt@@address@toks=\toks52
+\@@alt@@all@@address@toks=\toks53
+\temp@@alt@@address@toks=\toks54
+\@thealtAddrmarktoks=\toks55
+\@temp@thealtAddrmarktoks=\toks56
+\temptoks=\toks57
 \Emailsep=\dimen199
 \Email@insert=\insert251
 \c@Email=\count320
@@ -682,27 +686,27 @@ Package babel Info: 'russian' activates 'russian' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Info: Redefining \th on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Info: Redefining \th on input line 23.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count337
@@ -710,12 +714,12 @@ LaTeX Info: Redefining \th on input line 22.
 \scratchbox=\box117
 \nofMPsegments=\count338
 \nofMParguments=\count339
-\everyMPshowfont=\toks56
+\everyMPshowfont=\toks58
 \MPscratchCnt=\count340
 \MPscratchDim=\dimen264
 \MPnumerator=\count341
 \makeMPintoPDFobject=\count342
-\everyMPtoPDFconversion=\toks57
+\everyMPtoPDFconversion=\toks59
 ) (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -755,7 +759,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -765,31 +769,31 @@ Package hyperref Info: Link coloring OFF on input line 22.
 [1
 
 {C:/Users/dagri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 122.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 123.
  (C:\Users\dagri\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 <figures/Source_extract.png, id=44, 1119.43219pt x 678.28406pt>
 File: figures/Source_extract.png Graphic file (type png)
 <use figures/Source_extract.png>
-Package pdftex.def Info: figures/Source_extract.png  used on input line 147.
+Package pdftex.def Info: figures/Source_extract.png  used on input line 148.
 (pdftex.def)             Requested size: 422.52054pt x 256.01186pt.
 <figures/article_entities.png, id=46, 1588.43437pt x 898.10532pt>
 File: figures/article_entities.png Graphic file (type png)
 <use figures/article_entities.png>
-Package pdftex.def Info: figures/article_entities.png  used on input line 154.
+Package pdftex.def Info: figures/article_entities.png  used on input line 155.
 (pdftex.def)             Requested size: 399.05275pt x 225.6221pt.
 
 
 Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 200.
+(babel)             Reported on input line 201.
 [2]
 
 [3 <./figures/Source_extract.png> <./figures/article_entities.png>]
 <figures/two_queries.png, id=92, 1392.70313pt x 829.59938pt>
 File: figures/two_queries.png Graphic file (type png)
 <use figures/two_queries.png>
-Package pdftex.def Info: figures/two_queries.png  used on input line 232.
+Package pdftex.def Info: figures/two_queries.png  used on input line 233.
 (pdftex.def)             Requested size: 469.47046pt x 279.64226pt.
 
 
@@ -803,12 +807,12 @@ Package pdftex.def Info: figures/two_queries.png  used on input line 232.
 <figures/outline.png, id=188, 1635.10875pt x 593.21625pt>
 File: figures/outline.png Graphic file (type png)
 <use figures/outline.png>
-Package pdftex.def Info: figures/outline.png  used on input line 448.
+Package pdftex.def Info: figures/outline.png  used on input line 449.
 (pdftex.def)             Requested size: 469.47046pt x 170.31752pt.
 <figures/two_secs.png, id=191, 1298.60156pt x 952.30782pt>
 File: figures/two_secs.png Graphic file (type png)
 <use figures/two_secs.png>
-Package pdftex.def Info: figures/two_secs.png  used on input line 488.
+Package pdftex.def Info: figures/two_secs.png  used on input line 489.
 (pdftex.def)             Requested size: 422.52054pt x 309.84512pt.
 
 
@@ -825,10 +829,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 88730D34550AC6365D739D82A09B966E;183.
  ) 
 Here is how much of TeX's memory you used:
- 13216 strings out of 468148
- 205649 string characters out of 5431061
- 646889 words of memory out of 5000000
- 41535 multiletter control sequences out of 15000+600000
+ 13246 strings out of 468148
+ 206368 string characters out of 5431061
+ 647446 words of memory out of 5000000
+ 41562 multiletter control sequences out of 15000+600000
  646865 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,79p,600b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
