@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1755686252.09111 "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" "main.pdf" "main" 1755686255.19969 0
+["pdflatex"] 1755686344.93598 "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" "main.pdf" "main" 1755686347.98922 0
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755628160 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk" 1752060787 12124 b5266333a997ef9c82167d72551a62cb ""
   "C:/Users/dagri/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labi1000.pk" 1752585540 34112 f98ed3ba6f7c03dc45c2c93178a845c2 ""
@@ -137,16 +137,16 @@
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/dagri/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" 1755686251 54016 dda3d6052ae76ad3a4229bc267b2fddd ""
+  "d:/MSU/year_4/semester_8/RCC/Articles/WikiBench/ai_journey/main.tex" 1755686341 54016 9767f2921029f944b273a1bb3c5fc5ca ""
   "dan2e.sty" 1674159939 33604 1cc986cb32c5c4a9d02ceac326c7260f ""
   "figures/Source_extract.png" 1752752555 435998 393f6a0f8ec196bb9789c234f2f934cb ""
   "figures/article_entities.png" 1753969401 512282 d4a2f9728089e2629933851e33c71e7f ""
   "figures/outline.png" 1755183157 248282 9c8411f9a7bd977609075e30658ce652 ""
   "figures/two_queries.png" 1755182925 364610 4572cdfdaa9ea766c03ec10ff650e0d5 ""
   "figures/two_secs.png" 1755183304 472669 819b1735f8d5b79b61c8eb154fd1ca5f ""
-  "main.aux" 1755686254 5009 b79a4df236afaa2fae57f1183491a38f "pdflatex"
-  "main.out" 1755686254 183 88730d34550ac6365d739d82a09b966e "pdflatex"
-  "main.tex" 1755686251 54016 dda3d6052ae76ad3a4229bc267b2fddd ""
+  "main.aux" 1755686347 5009 e4a841731d43557d4f7dfe9b4fbe4d20 "pdflatex"
+  "main.out" 1755686347 183 88730d34550ac6365d739d82a09b966e "pdflatex"
+  "main.tex" 1755686341 54016 9767f2921029f944b273a1bb3c5fc5ca ""
   (generated)
   "main.aux"
   "main.log"
